@@ -1,0 +1,16 @@
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\bin\Debug\net11.0\MyConsoleApp.exe
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\bin\Debug\net11.0\MyConsoleApp.deps.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\bin\Debug\net11.0\MyConsoleApp.runtimeconfig.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\bin\Debug\net11.0\MyConsoleApp.runtimeconfig.dev.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\bin\Debug\net11.0\MyConsoleApp.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\bin\Debug\net11.0\MyConsoleApp.pdb
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsoleApp.AssemblyInfo.cs
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsoleApp.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\refint\MyConsoleApp.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsoleApp.pdb
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsoleApp.genruntimeconfig.cache
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\ref\MyConsoleApp.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsol.4CA403AE.Up2Date
