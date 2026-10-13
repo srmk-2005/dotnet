@@ -4,8 +4,8 @@ class Atm
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to the ATM!");
-        Console.Write("Enter your account balance: ");
-        double balance = Convert.ToDouble(Console.ReadLine());
+        // Console.Write("Enter your account balance: ");
+        double balance = 5000;
         Console.Write("Enter the amount to withdraw: ");
         double withdrawAmount = Convert.ToDouble(Console.ReadLine());
 

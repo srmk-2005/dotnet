@@ -3,7 +3,7 @@ class LeapYear
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter a year to check if it's a leap year:");
+        Console.Write("Enter a year to check if it's a leap year:");
         int year = Convert.ToInt32(Console.ReadLine());
         if (year % 4 == 0)
         {
