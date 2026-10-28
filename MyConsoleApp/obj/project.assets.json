@@ -1,11 +1,30 @@
 {
   "version": 4,
   "targets": {
-    "net11.0": {}
+    "net11.0": {
+      "NewConsole/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v11.0",
+        "compile": {
+          "bin/placeholder/NewConsole.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewConsole.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NewConsole/1.0.0": {
+      "type": "project",
+      "path": "../NewConsole/NewConsole.csproj",
+      "msbuildProject": "../NewConsole/NewConsole.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net11.0": []
+    "net11.0": [
+      "NewConsole >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Ramamuthukumaran s\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
         "net11.0": {
           "framework": "net11.0",
           "targetAlias": "net11.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Ramamuthukumaran s\\OneDrive\\Desktop\\projects\\ups\\NewConsole\\NewConsole.csproj": {
+              "projectPath": "C:\\Users\\Ramamuthukumaran s\\OneDrive\\Desktop\\projects\\ups\\NewConsole\\NewConsole.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -14,3 +14,7 @@ C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug
 C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsoleApp.genruntimeconfig.cache
 C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\ref\MyConsoleApp.dll
 C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsol.4CA403AE.Up2Date
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsoleApp.sourcelink.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\obj\Debug\net11.0\MyConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\bin\Debug\net11.0\NewConsole.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\MyConsoleApp\bin\Debug\net11.0\NewConsole.pdb

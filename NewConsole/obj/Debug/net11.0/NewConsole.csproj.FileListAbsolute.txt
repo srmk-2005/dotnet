@@ -1,0 +1,13 @@
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\bin\Debug\net11.0\NewConsole.deps.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\bin\Debug\net11.0\NewConsole.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\bin\Debug\net11.0\NewConsole.pdb
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.AssemblyInfoInputs.cache
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.AssemblyInfo.cs
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.csproj.CoreCompileInputs.cache
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.sourcelink.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\refint\NewConsole.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.pdb
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\ref\NewConsole.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.csproj.Up2Date

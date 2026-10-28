@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v11.0": {
       "MyConsoleApp/1.0.0": {
+        "dependencies": {
+          "NewConsole": "1.0.0"
+        },
         "runtime": {
           "MyConsoleApp.dll": {}
+        }
+      },
+      "NewConsole/1.0.0": {
+        "runtime": {
+          "NewConsole.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "MyConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NewConsole/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
