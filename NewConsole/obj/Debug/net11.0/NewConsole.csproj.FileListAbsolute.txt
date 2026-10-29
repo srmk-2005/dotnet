@@ -11,3 +11,7 @@ C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\n
 C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.pdb
 C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\ref\NewConsole.dll
 C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.csproj.Up2Date
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\bin\Debug\net11.0\NewConsole.exe
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\bin\Debug\net11.0\NewConsole.runtimeconfig.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\bin\Debug\net11.0\NewConsole.runtimeconfig.dev.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\NewConsole\obj\Debug\net11.0\NewConsole.genruntimeconfig.cache
