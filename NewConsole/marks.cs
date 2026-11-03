@@ -2,43 +2,38 @@ class Marks
 {
     static void Main(string[] args)
     {
-        int marks;
+        // int marks;
+        int [] marksArray = new int[5];
         Console.WriteLine("Enter your marks: ");
-        marks = Convert.ToInt32(Console.ReadLine());
         try
         {
-            if (marks < 0 || marks > 100)
+            for (int i = 0; i < 5; i++)
             {
-                throw new ArgumentOutOfRangeException("Marks should be between 0 and 100.");
-            }
-            else if (marks >= 90)
-            {
-                Console.WriteLine("Grade: A");
-            }
-            else if (marks >= 80)
-            {
-                Console.WriteLine("Grade: B");
-            }
-            else if (marks >= 70)
-            {
-                Console.WriteLine("Grade: C");
-            }
-            else if (marks >= 60)
-            {
-                Console.WriteLine("Grade: D");
-            }
-            else
-            {
-                Console.WriteLine("Grade: F");
+                while (true)
+                {
+                    Console.Write("Enter marks for subject {0}: ", i+1);
+                    int mark=Convert.ToInt32(Console.ReadLine());
+                    if (mark < 0 || mark > 100)
+                    {
+                        Console.WriteLine("Invalid marks. Please enter a value between 0 and 100.");
+                    }
+                    else
+                    {
+                        marksArray[i] = mark;
+                        break;
+                    }
+                }
             }
         }
-        catch (ArgumentOutOfRangeException ex)
+        catch (FormatException)
+        {
+            Console.WriteLine("Invalid input. Please enter a valid integer.");
+            return;
+        }
+        catch (Exception ex)
         {
             Console.WriteLine(ex.Message);
-        }
-        finally
-        {
-            Console.WriteLine("Thank you for using the grading system.");
+            return;
         }
     }
 }
