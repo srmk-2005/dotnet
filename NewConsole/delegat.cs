@@ -19,7 +19,6 @@ class SMS
     public void Send(string msg) =>
         Console.WriteLine("SMS: " + msg);
 }
-
 class Email
 {
     public void Send(string msg) =>
@@ -60,7 +59,6 @@ class Library
         else
             Console.WriteLine("Book unavailable!");
     }
-
     public void Return(string name)
     {
         Book b = books.Find(x => x.Name == name);
@@ -81,21 +79,15 @@ class Program
     {
         SMS sms = new SMS();
         Email email = new Email();
-
         Notify notify = sms.Send;
         notify += email.Send;
-
         Library lib = new Library(notify);
-
         lib.AddBook("C# Programming");
         lib.AddBook("Java Programming");
-
         Console.WriteLine("\nAvailable Books:");
         lib.Display();
-
         Console.WriteLine("\nIssuing Book:");
         lib.Issue("C# Programming");
-
         Console.WriteLine("\nReturning Book:");
         lib.Return("C# Programming");
     }
