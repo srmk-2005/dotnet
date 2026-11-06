@@ -1,0 +1,4 @@
+This is the first line of C# File Handling.
+Welcome to C#.
+How can I help you?
+Thank you!
