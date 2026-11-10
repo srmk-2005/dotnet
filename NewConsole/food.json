@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "rice",
+    "Price": 45,
+    "WaitingTime": 5
+  },
+  {
+    "Name": "dosa",
+    "Price": 60,
+    "WaitingTime": 10
+  }
+]
