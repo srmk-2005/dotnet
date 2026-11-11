@@ -1,0 +1,17 @@
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\bin\Debug\net11.0\EmployeeManagement.exe
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\bin\Debug\net11.0\EmployeeManagement.deps.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\bin\Debug\net11.0\EmployeeManagement.runtimeconfig.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\bin\Debug\net11.0\EmployeeManagement.runtimeconfig.dev.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\bin\Debug\net11.0\EmployeeManagement.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\bin\Debug\net11.0\EmployeeManagement.pdb
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\EmployeeManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\EmployeeManagement.AssemblyInfoInputs.cache
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\EmployeeManagement.AssemblyInfo.cs
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\EmployeeManagement.sourcelink.json
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\EmployeeManagement.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\refint\EmployeeManagement.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\EmployeeManagement.pdb
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\EmployeeManagement.genruntimeconfig.cache
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\ref\EmployeeManagement.dll
+C:\Users\Ramamuthukumaran s\OneDrive\Desktop\projects\ups\EmployeeManagement\obj\Debug\net11.0\Employee.61744648.Up2Date
