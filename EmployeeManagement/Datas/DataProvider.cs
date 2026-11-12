@@ -20,6 +20,18 @@ namespace Linq.Datas
                 new Employee { Id = 105, Name = "Divya", Dept = "HR", Age = 27, Salary = 55000, Experience = 5 },
 
                 new Employee { Id = 106, Name = "Sanjay", Dept = "IT", Age = 30, Salary = 75000, Experience = 8 }
+                
+            };
+        }
+        public static List<Manager> GetManagers()
+        {
+            return new List<Manager>()
+            {
+                new Manager { id = 201, name = "Ramesh", dept = "IT", age = 35 },
+
+                new Manager { id = 202, name = "Suresh", dept = "HR", age = 40 },
+
+                new Manager { id = 203, name = "Anita", dept = "Finance", age = 38 }
             };
         }
     }

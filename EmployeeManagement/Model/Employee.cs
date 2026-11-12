@@ -9,4 +9,11 @@ namespace Linq.Model
         public double Salary { get; set; }
         public int Experience { get; set; }
     }
+    public class Manager
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public string dept { get; set; }
+        public int age { get; set; }
+    }
 }

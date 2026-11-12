@@ -1,0 +1,12 @@
+ADO.NET
+    Active Data Object
+Execute Non Query
+Execute Query
+Execute Scaler
+
+Mysql.Data
+Mysql.Connector
+
+Mysql.Dataadapter
+Mysql.Parameter
+
