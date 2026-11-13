@@ -16,77 +16,34 @@ namespace Adonet
                     new MySqlConnection(connectionString))
                 {
                     connection.Open();
-                    Console.WriteLine("Connection successful!");
-                    Console.Write("Enter Student ID to update: ");
-                    if (!int.TryParse(Console.ReadLine(), out int studentId))
+
+                    Console.WriteLine("Connection successful!\n");
+
+                    const string query =
+                        "SELECT id, name, email, dept, marks FROM student " +
+                        "WHERE LOWER(LEFT(name, 1)) IN ('a', 'e', 'i', 'o', 'u')";
+
+                    using (var command = new MySqlCommand(query, connection))
                     {
-                        Console.WriteLine("Invalid Student ID!");
-                        return;
-                    }
-                    string checkQuery =
-                        "SELECT COUNT(*) FROM student WHERE id = @id";
-                    using (var checkCommand =
-                        new MySqlCommand(checkQuery, connection))
-                    {
-                        checkCommand.Parameters.AddWithValue("@id", studentId);
-                        int count = Convert.ToInt32(
-                            checkCommand.ExecuteScalar());
-                        if (count == 0)
+                        using (var reader = command.ExecuteReader())
                         {
-                            Console.WriteLine("Student ID not found!");
-                            return;
-                        }
-                    }
-                    Console.WriteLine("\nStudent found! Enter updated details.");
-                    Console.Write("Enter Student Name: ");
-                    string name = Console.ReadLine();
-                    Console.Write("Enter Student Email: ");
-                    string email = Console.ReadLine();
-                    Console.Write("Enter Student Department: ");
-                    string dept = Console.ReadLine();
-                    Console.Write("Enter Student Marks: ");
-                    if (!int.TryParse(Console.ReadLine(), out int marks))
-                    {
-                        Console.WriteLine("Invalid Marks!");
-                        return;
-                    }
-                    if (marks < 0 || marks > 100)
-                    {
-                        Console.WriteLine("Marks must be between 0 and 100!");
-                        return;
-                    }
-                    if (string.IsNullOrWhiteSpace(name) ||
-                        string.IsNullOrWhiteSpace(email) ||
-                        string.IsNullOrWhiteSpace(dept))
-                    {
-                        Console.WriteLine("Fields cannot be empty!");
-                        return;
-                    }
-                    string updateQuery = @"
-                        UPDATE student
-                        SET name = @name,
-                            email = @email,
-                            dept = @dept,
-                            marks = @marks
-                        WHERE id = @id";
-                    using (var command =
-                        new MySqlCommand(updateQuery, connection))
-                    {
-                        command.Parameters.AddWithValue("@id", studentId);
-                        command.Parameters.AddWithValue("@name", name);
-                        command.Parameters.AddWithValue("@email", email);
-                        command.Parameters.AddWithValue("@dept", dept);
-                        command.Parameters.AddWithValue("@marks", marks);
-                        int rowsAffected = command.ExecuteNonQuery();
-                        if (rowsAffected > 0)
-                        {
-                            Console.WriteLine(
-                                "\nStudent details updated successfully!");
-                        }
-                        else
-                        {
-                            Console.WriteLine(
-                                "No changes were made to the student record.");
+                            if (!reader.HasRows)
+                            {
+                                Console.WriteLine("No students with names starting with a vowel were found.");
+                                return;
+                            }
+
+                            Console.WriteLine("Students whose names start with a vowel:\n");
+
+                            while (reader.Read())
+                            {
+                                Console.WriteLine($"ID: {reader["id"]}");
+                                Console.WriteLine($"Name: {reader["name"]}");
+                                Console.WriteLine($"Email: {reader["email"]}");
+                                Console.WriteLine($"Department: {reader["dept"]}");
+                                Console.WriteLine($"Marks: {reader["marks"]}");
+                                Console.WriteLine();
+                            }
                         }
                     }
                 }

@@ -10,3 +10,12 @@ Mysql.Connector
 Mysql.Dataadapter
 Mysql.Parameter
 
+microsoft.entityframeworkcore
+ms.entityframeworkcore.tools
+ms.entityframeworkcore.design
+pomilo.entityframeworkcore.Mysql
+
+scaffold-DbContext "server=localhost;user=username;password=password;db=db_name;"
+pomilo.entityframeworkcore.Mysql - OutDir
+
+Models
